@@ -2,12 +2,7 @@ package nyc.c4q.dereksantos.midterm_12_10;
 
 import java.util.List;
 
-/**
- * Created by SACC on 12/10/16.
- */
-
-public class Data
-{
+public class Data {
     private String nextPage;
 
     private String count;
@@ -24,89 +19,72 @@ public class Data
 
     private String anchor;
 
-    public String getNextPage ()
-    {
+    public String getNextPage() {
         return nextPage;
     }
 
-    public void setNextPage (String nextPage)
-    {
+    public void setNextPage(String nextPage) {
         this.nextPage = nextPage;
     }
 
-    public String getCount ()
-    {
+    public String getCount() {
         return count;
     }
 
-    public void setCount (String count)
-    {
+    public void setCount(String count) {
         this.count = count;
     }
 
-    public String getBackAnchor ()
-    {
+    public String getBackAnchor() {
         return backAnchor;
     }
 
-    public void setBackAnchor (String backAnchor)
-    {
+    public void setBackAnchor(String backAnchor) {
         this.backAnchor = backAnchor;
     }
 
-    public String getAnchorStr ()
-    {
+    public String getAnchorStr() {
         return anchorStr;
     }
 
-    public void setAnchorStr (String anchorStr)
-    {
+    public void setAnchorStr(String anchorStr) {
         this.anchorStr = anchorStr;
     }
 
-    public List<Record> getRecords ()
-    {
+    public List<Record> getRecords() {
         return records;
     }
 
-    public void setRecords (List<Record> records)
-    {
+    public void setRecords(List<Record> records) {
         this.records = records;
     }
 
-    public Object getPreviousPage ()
-{
-    return previousPage;
-}
+    public Object getPreviousPage() {
+        return previousPage;
+    }
 
-    public void setPreviousPage (Object previousPage)
-    {
+    public void setPreviousPage(Object previousPage) {
         this.previousPage = previousPage;
     }
 
-    public String getSize ()
-    {
+    public String getSize() {
         return size;
     }
 
-    public void setSize (String size)
-    {
+    public void setSize(String size) {
         this.size = size;
     }
 
-    public String getAnchor ()
-    {
+    public String getAnchor() {
         return anchor;
     }
 
-    public void setAnchor (String anchor)
-    {
+    public void setAnchor(String anchor) {
         this.anchor = anchor;
     }
 
     @Override
-    public String toString()
-    {
-        return "ClassPojo [nextPage = "+nextPage+", count = "+count+", backAnchor = "+backAnchor+", anchorStr = "+anchorStr+", records = "+records+", previousPage = "+previousPage+", size = "+size+", anchor = "+anchor+"]";
+    public String toString() {
+        return "ClassPojo [nextPage = " + nextPage + ", count = " + count + ", backAnchor = " + backAnchor + ", anchorStr = " + anchorStr + ", records = " + records + ", previousPage = " + previousPage + ", size = " + size + ", anchor = " + anchor + "]";
     }
 }

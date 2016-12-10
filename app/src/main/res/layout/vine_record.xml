@@ -7,11 +7,13 @@
 
     <TextView
         android:id="@+id/vine_username"
+        android:textSize="30sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <TextView
         android:id="@+id/vine_liked"
+        android:textSize="26sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
