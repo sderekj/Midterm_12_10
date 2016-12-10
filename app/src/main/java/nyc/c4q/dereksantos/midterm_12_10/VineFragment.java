@@ -46,9 +46,9 @@ public class VineFragment extends Fragment {
         call.enqueue(new Callback<VineResponse>() {
             @Override
             public void onResponse(Call<VineResponse> call, Response<VineResponse> response) {
-                Log.d(TAG, "################### This is a successful onResponse: " + new Gson().toJson(response));
-                Log.d(TAG, "################### This is a successful onResponse: " + new Gson().toJson(response.body()));
-
+//                Log.d(TAG, "################### This is a successful onResponse: " + new Gson().toJson(response));
+//                Log.d(TAG, "################### This is a successful onResponse: " + new Gson().toJson(response.body()));
+                Log.d(TAG, "################### This is a successful onResponse: " + response.body().getData().getCount());
             }
 
             @Override
