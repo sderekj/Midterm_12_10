@@ -27,6 +27,11 @@ public class VineRecordViewHolder extends RecyclerView.ViewHolder {
 
         usernameView.setText(vineRecord.getUsername());
         likedView.setText(vineRecord.getLiked());
+        String num = vineRecord.getProfileBackground().substring(2);
+        String something = "#" + num;
+
+        itemView.setBackgroundColor(Color.parseColor(something));
+
 //        itemView.setBackgroundColor(Color.parseColor(vineRecord.getProfileBackground()));
 //        itemView.setBackgroundColor(5276389);
     }
